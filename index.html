@@ -5,77 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Prime Pizzeria</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
     <div class="container-fluid">
-      <div class="landing-page position-relative">
-        <div class="hero-text position-absolute">
-          <h1>The Prime Pizzeria</h1>
-          <p class="text-white">whole or slice, any would suffice</p>
-          <button type="button" class="btn btn-outline-warning">Order Online</button>
+      <div class="order">
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="navbar-center">
+            <span class="nav-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+            <h4>The Prime Pizzeria</h4>
+            <div class="cart-btn">
+              <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+              </span>
+              <div class="cart-items">0</div>
+            </div>
+          </div>
+        </nav>
+        <!-- end og navbar -->
+        <!-- hero -->
+        <header class="hero">
+          <div class="banner">
+            <h1 class="banner-title">Build Your Pizza</h1>
+            <button class="banner-btn">shop now</button>
+          </div>
+        </header>
+
+        <!-- end of hero -->
+        <!-- products -->
+        <!-- end of products -->
+
+        <div class="order1 d-flex justify-content-between">
+          <div class="order-text">
+            <h2>Build Your Own Pizza</h2>
+            <p>Home > Pizza Builder</p>
+          </div>
+          <img src="./src/images/pizza5.jpg" alt="" width="35%" />
         </div>
       </div>
-      <div class="pizza-builder">
-        <section class="orders">
-          <div class="order">
-            <div class="nav-bar">
-              <nav class="navbar navbar-dark sticky-top">
-                <!-- Navbar content -->
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNavAltMarkup"
-                  aria-controls="navbarNavAltMarkup"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#"
-                      >Home <span class="sr-only">(current)</span></a
-                    >
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                  </div>
-                </div>
-              </nav>
-            </div>
-            <div class="order1 d-flex justify-content-between">
-              <div class="order-text">
-                <h2>Build Your Own Pizza</h2>
-                <p>Home > Pizza Builder</p>
-              </div>
-              <img src="./src/images/pizza5.jpg" alt="" width="35%" />
-            </div>
-          </div>
-          <div class="select">
-            <div class="specify">
-              <hr>
-              <p>Choose your crust's size</p>
-            </div>
-            <div class="specify">
-              <hr>
-              <p>Choose the type of crust</p>
-            </div>
-            <div class="specify">
-              <hr>
-              <p>Choose your toppings</p>
-            </div>
-            <div class="specify">
-              <hr>
-              <p>Add cheese</p>
-              <hr>
-            </div>
-          </div>
-        </section>
+      <div class="select">
+        <div class="specify">
+          <hr />
+          <p>Choose your crust's size</p>
+        </div>
+        <div class="specify">
+          <hr />
+          <p>Choose the type of crust</p>
+        </div>
+        <div class="specify">
+          <hr />
+          <p>Choose your toppings</p>
+        </div>
+        <div class="specify">
+          <hr />
+          <p>Add cheese</p>
+          <hr />
+        </div>
       </div>
+
       <div class="checkout"></div>
     </div>
 

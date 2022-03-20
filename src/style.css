@@ -1,0 +1,50 @@
+/* <div class="landing-page position-relative">
+        <div class="hero-text position-absolute">
+          <h1>The Prime Pizzeria</h1>
+          <p class="text-white">whole or slice, any would suffice</p>
+          <button type="button" class="btn btn-outline-warning">
+            Order Online
+          </button>
+        </div>
+      </div> */
+/* <nav class="navbar navbar-dark sticky-top">
+                <!-- Navbar content -->
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                  </div>
+                </div>
+              </nav> */
+/* .landing-page {
+  background: url(../images/pizza-gcf0e07180_1920.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.hero-text h1 {
+  color: #f57a07;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
