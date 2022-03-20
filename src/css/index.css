@@ -9,8 +9,40 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.hero-text {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.hero-text h1 {
+  color: #f57a07;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
 
 .order {
-  height: 80vh;
+  height: 60vh;
   background-color: black;
 }
+.order-text {
+  /* top: 60%; */
+  /* bottom: 20%; */
+  padding-top: 4em;
+  width: 100%;
+  text-align: center;
+}
+.order-text h2{
+    color: #f57a07;
+
+}
+.order-text p{
+  color: white;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
