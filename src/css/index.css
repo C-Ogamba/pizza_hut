@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 .landing-page {
   background: url(../images/pizza-gcf0e07180_1920.jpg);
@@ -9,10 +9,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.orders {
-  background-image: url(../images/pizza5.jpg);
+
+.order {
   height: 80vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
 }
