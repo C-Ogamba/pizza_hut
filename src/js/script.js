@@ -18,6 +18,8 @@
 // const getTotal = document.querySelector(".order");
 // const addOrder = document.querySelector(".checkout");
 
+
+
 $(".order").click(function () {
   let sizeOfPizza = $(".size option:selected").val();
   let toppings = $(".toppings option:selected").val();
@@ -38,6 +40,12 @@ function Pizza(size, topps, crust) {
     return `size: ${this.size}, toppings: ${this.topps}, choice of crust: ${this.crust}`;
   }
 }
+
+
+
+
+
+
 
 // const size = {
 //   small: 300,
