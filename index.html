@@ -64,8 +64,8 @@
             </div>
             <p>Choose Your crust's size</p>
             <div class="specify">
-              <select name="pizza' size" id="pizza-size">
-                <option value="choose">choose</option>
+              <select name="pizza" class="size" id="pizza-size">
+                <!-- <option  value="choose" >choose</option> -->
                 <option value="small">small</option>
                 <option value="medium">medium</option>
                 <option value="large">large</option>
@@ -86,8 +86,8 @@
             </div>
             <p>Choose Your Toppings</p>
             <div class="specify">
-              <select name="pizza' size" id="pizza-toppings">
-                <option value="choose">choose</option>
+              <select name="pizza" class="toppings" id="pizza-toppings">
+                <!-- <option value="choose">choose</option> -->
                 <option value="pineapples">pineapples</option>
                 <option value="mushrooms">mushrooms</option>
                 <option value="olives">olives</option>
@@ -108,11 +108,11 @@
             </div>
             <p>Choose your crust type</p>
             <div class="specify">
-              <select name="pizza' size" id="pizza-crust">
-                <option value="choose">choose</option>
+              <select name="pizza"  class="crust-type" id="pizza-crust">
+                <!-- <option value="choose">choose</option> -->
                 <option value="rispy">rispy</option>
                 <option value="stuffed">stuffed</option>
-                <option value="gluten-free">gluten-free</option>
+                <option value="glutenFree">glutenFree</option>
               </select>
             </div>
           </article>
@@ -131,11 +131,15 @@
             <tr>
               <td class="number"></td>
               <td class="size"></td>
-              <td class="type"></td>
               <td class="toppings"></td>
+              <td class="type"></td>
               <td class="total"></td>
             </tr>
           </table>
+        </div>
+        <div class="checkout">
+          <button class="add-order">Add another</button>
+          <button class="checkout1">Checkout</button>
         </div>
       </section>
       <!-- cart -->
