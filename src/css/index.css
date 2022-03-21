@@ -240,6 +240,15 @@ body {
 .random{
   display: block;
 }
+.add-order{
+  display: none;
+}
+.checkout{
+  display: none;
+}
+.cart-total{
+  display: block;
+}
 
 /* .order {
   height: 60vh;
