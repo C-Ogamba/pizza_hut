@@ -23,7 +23,7 @@
             <span class="nav-icon">
               <i class="fas fa-bars"></i>
             </span>
-            <h4>The Prime Pizzeria</h4>
+            <h4 class="logo">The Prime Pizzeria</h4>
             <div class="cart-btn">
               <span class="nav-icon" id="active">
                 <i class="fas fa-cart-plus"></i>
@@ -36,7 +36,7 @@
         <!-- hero -->
         <header class="hero">
           <div class="banner">
-            <h1 class="banner-title">Build Your Pizza</h1>
+            <h1 class="banner-title">Build your own pizza</h1>
             <button class="banner-btn">shop now</button>
           </div>
         </header>
@@ -63,7 +63,14 @@
               </button>
             </div>
             <p>Choose Your crust's size</p>
-            <p>$16</p>
+            <div class="specify">
+              <select name="pizza' size" id="pizza-size">
+                <option value="choose">choose</option>
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+              </select>
+            </div>
           </article>
           <article class="product">
             <div class="img-container">
@@ -77,8 +84,15 @@
                 add to cart
               </button>
             </div>
-            <p>Choose Your crust's size</p>
-            <p>$16</p>
+            <p>Choose Your Toppings</p>
+            <div class="specify">
+              <select name="pizza' size" id="pizza-toppings">
+                <option value="choose">choose</option>
+                <option value="pineapples">pineapples</option>
+                <option value="mushrooms">mushrooms</option>
+                <option value="olives">olives</option>
+              </select>
+            </div>
           </article>
           <article class="product">
             <div class="img-container">
@@ -92,10 +106,36 @@
                 add to cart
               </button>
             </div>
-            <p>Choose Your crust's size</p>
-            <p>$16</p>
+            <p>Choose your crust type</p>
+            <div class="specify">
+              <select name="pizza' size" id="pizza-crust">
+                <option value="choose">choose</option>
+                <option value="rispy">rispy</option>
+                <option value="stuffed">stuffed</option>
+                <option value="gluten-free">gluten-free</option>
+              </select>
+            </div>
           </article>
           <!-- end of single product -->
+        </div>
+        <button class="order">order</button>
+        <div class="data">
+          <table>
+            <tr>
+              <th>order number</th>
+              <th>pizza size</th>
+              <th>crust type</th>
+              <th>toppings</th>
+              <th>total</th>
+            </tr>
+            <tr>
+              <td class="number"></td>
+              <td class="size"></td>
+              <td class="type"></td>
+              <td class="toppings"></td>
+              <td class="total"></td>
+            </tr>
+          </table>
         </div>
       </section>
       <!-- cart -->
@@ -146,13 +186,13 @@
           <img src="./src/images/pizza5.jpg" alt="" width="35%" />
         </div> -->
 
-      <div class="select">
+      <!-- <div class="select">
         <div class="specify">
           <hr />
           <p>Choose your crust's size</p>
           <form action="">
             <select name="pizza' size" id="">
-              <!-- <option value="choose">choose</option> -->
+              <option value="choose">choose</option>
               <option value="small">small</option>
               <option value="medium">medium</option>
               <option value="large">large</option>
@@ -162,21 +202,21 @@
         <div class="specify">
           <hr />
           <p>Choose the type of crust</p>
-          <form action="">
+          <div class="specify">
             <select name="pizza' size" id="">
-              <!-- <option value="choose">choose</option> -->
+              <option value="choose">choose</option>
               <option value="small">small</option>
               <option value="medium">medium</option>
               <option value="large">large</option>
             </select>
-          </form>
+          </div>
         </div>
         <div class="specify">
           <hr />
           <p>Choose your toppings</p>
           <form action="">
             <select name="pizza' size" id="">
-              <!-- <option value="choose">choose</option> -->
+              <option value="choose">choose</option>
               <option value="small">small</option>
               <option value="medium">medium</option>
               <option value="large">large</option>
@@ -188,7 +228,7 @@
           <p>Add cheese</p>
           <form action="">
             <select name="pizza' size" id="">
-              <!-- <option value="choose">choose</option> -->
+              <option value="choose">choose</option>
               <option value="small">small</option>
               <option value="medium">medium</option>
               <option value="large">large</option>
@@ -196,7 +236,7 @@
           </form>
           <hr />
         </div>
-      </div>
+      </div> -->
 
       <div class="checkout"></div>
     </div>

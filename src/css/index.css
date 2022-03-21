@@ -17,6 +17,9 @@ body {
   background-color: rgb(12, 12, 12);
   z-index: 1;
 }
+.logo{
+  color: #f57a07;
+}
 .navbar-center {
   width: 100%;
   max-width: 1170px;
@@ -61,10 +64,11 @@ body {
   padding: 2rem;
 }
 .banner-title {
-  font-size: 3.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  color: white;
 }
 .banner-btn {
   padding: 1rem 3rem;
@@ -230,14 +234,20 @@ body {
   letter-spacing: 0.1rem;
   text-align: center;
 }
+.data{
+  display: none;
+}
+.random{
+  display: block;
+}
 
-.order {
+/* .order {
   height: 60vh;
   background-color: black;
 }
 .order-text {
-  /* top: 60%; */
-  /* bottom: 20%; */
+  top: 60%;
+  bottom: 20%;
   padding-top: 4em;
   width: 100%;
   text-align: center;
@@ -259,5 +269,5 @@ hr {
 }
 .select{
   background-color: rgb(27, 27, 27);
-  
-}
+
+} */
