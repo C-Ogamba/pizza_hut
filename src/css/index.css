@@ -19,6 +19,7 @@ body {
 }
 .logo{
   color: #f57a07;
+  font-family: 'Lobster', cursive;
 }
 .navbar-center {
   width: 100%;
@@ -87,6 +88,7 @@ body {
 }
 .products {
   padding: 4rem 0;
+  background-color: rgba(46, 44, 44, 0.781);
 }
 .section-title h2 {
   text-align: center;
@@ -96,15 +98,15 @@ body {
   letter-spacing: 0.1rem;
 }
 .products-center {
-  width: 90vw;
+  width: 100vh;
   margin: 0 auto;
-  max-width: 1170px;
-  display: grid;
+  /* max-width: 1170px; */
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem; */
 }
-.img-container {
+/* .img-container {
   position: relative;
   overflow: hidden;
 }
@@ -139,7 +141,7 @@ body {
 }
 .img-container:hover .product-img {
   opacity: 0.5;
-}
+} */
 .product h3 {
   text-transform: capitalize;
   font-size: 1.1rem;

@@ -18,17 +18,27 @@
 // const getTotal = document.querySelector(".order");
 // const addOrder = document.querySelector(".checkout");
 
-
+let countOrder = 0;
 
 $(".order").click(function () {
+  countOrder++;
   let sizeOfPizza = $(".size option:selected").val();
   let toppings = $(".toppings option:selected").val();
   let crustType = $(".crust-type option:selected").val();
   console.log(sizeOfPizza);
   let order = new Pizza(sizeOfPizza, toppings, crustType);
-  console.log(order);
+  console.log(order.getDetails());
+  let orderItem = ` <tr>
+              <td class="number">${countOrder}</td>
+              <td class="size">${sizeOfPizza}</td>
+              <td class="toppings">${toppings}</td>
+              <td class="type">${crustType}</td>
+              <td class="total">${order}</td>
+            </tr>`;
+        $(".order-table").append(orderItem);
+        $(".data").show();    
 });
- 
+
 // function constructor
 function Pizza(size, topps, crust) {
   this.size = size;
@@ -36,16 +46,10 @@ function Pizza(size, topps, crust) {
   this.crust = crust;
 
   // method to return all pizza details
-  function getDetails() {
-    return `size: ${this.size}, toppings: ${this.topps}, choice of crust: ${this.crust}`;
-  }
 }
-
-
-
-
-
-
+Pizza.prototype.getDetails = function () {
+  return `size: ${this.size}, toppings: ${this.topps}, choice of crust: ${this.crust}`;
+};
 
 // const size = {
 //   small: 300,

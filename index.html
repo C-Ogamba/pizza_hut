@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Prime Pizzeria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Jost:wght@300;400&family=Lobster&family=PT+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -44,96 +50,103 @@
 
       <!-- end of hero -->
       <!-- products -->
-      <section class="products">
+      <section class="products container-fluid">
         <div class="section-title">
           <h2>Build Your Own Pizza</h2>
         </div>
-        <div class="products-center">
+        <div class="products-center row">
           <!-- single product -->
-          <article class="product">
-            <div class="img-container">
+          <div class="product col-md-4 text-center">
+            <div class="img-container text-center">
               <img
                 src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
                 alt="product"
-                class="product-img"
+                class="img-fluid"
               />
-              <button class="bag-btn" data-id="1">
+              <!-- <button class="bag-btn" data-id="1">
                 <i class="fas fa-shopping-cart"></i>
                 add to cart
-              </button>
+              </button> -->
             </div>
             <p>Choose Your crust's size</p>
             <div class="specify">
-              <select name="pizza" class="size" id="pizza-size">
+              <select
+                name="pizza"
+                class="size form-select"
+                aria-label="Disabled select example"
+                id="pizza-size"
+              >
                 <!-- <option  value="choose" >choose</option> -->
                 <option value="small">small</option>
                 <option value="medium">medium</option>
                 <option value="large">large</option>
               </select>
             </div>
-          </article>
-          <article class="product">
+          </div>
+          <div class="product col-md-4 text-center">
             <div class="img-container">
               <img
                 src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
                 alt="product"
-                class="product-img"
+                class="img-fluid"
               />
-              <button class="bag-btn" data-id="1">
+              <!-- <button class="bag-btn" data-id="1">
                 <i class="fas fa-shopping-cart"></i>
                 add to cart
-              </button>
+              </button> -->
             </div>
             <p>Choose Your Toppings</p>
             <div class="specify">
-              <select name="pizza" class="toppings" id="pizza-toppings">
-                <!-- <option value="choose">choose</option> -->
+              <select
+                name="pizza form-select"
+                aria-label="Disabled select example"
+                id="pizza-toppings"
+              >
+                <option value="choose">choose</option>
                 <option value="pineapples">pineapples</option>
                 <option value="mushrooms">mushrooms</option>
                 <option value="olives">olives</option>
               </select>
             </div>
-          </article>
-          <article class="product">
+          </div>
+          <div class="product col-md-4 text-center">
             <div class="img-container">
               <img
                 src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
                 alt="product"
-                class="product-img"
+                class="img-fluid"
               />
-              <button class="bag-btn" data-id="1">
+              <!-- <button class="bag-btn" data-id="1">
                 <i class="fas fa-shopping-cart"></i>
                 add to cart
-              </button>
+              </button> -->
             </div>
             <p>Choose your crust type</p>
             <div class="specify">
-              <select name="pizza"  class="crust-type" id="pizza-crust">
-                <!-- <option value="choose">choose</option> -->
+              <select
+                name="pizza"
+                class="crust-type form-select"
+                aria-label="Disabled select example"
+                id="pizza-crust"
+              >
+                <option value="choose">choose</option>
                 <option value="rispy">rispy</option>
                 <option value="stuffed">stuffed</option>
                 <option value="glutenFree">glutenFree</option>
               </select>
             </div>
-          </article>
+          </div>
           <!-- end of single product -->
         </div>
-        <button class="order">order</button>
+        <button class="order btn btn-warning p-2">Order Now</button>
         <div class="data">
-          <table>
+          <table class="table table-stripped table-dark order-table">
             <tr>
               <th>order number</th>
               <th>pizza size</th>
               <th>crust type</th>
               <th>toppings</th>
               <th>total</th>
-            </tr>
-            <tr>
-              <td class="number"></td>
-              <td class="size"></td>
-              <td class="toppings"></td>
-              <td class="type"></td>
-              <td class="total"></td>
             </tr>
           </table>
         </div>
