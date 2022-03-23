@@ -65,8 +65,9 @@ body {
   padding: 2rem;
 }
 .banner-title {
-  font-size: 2rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Damion', cursive;
+  /* text-transform: uppercase; */
   letter-spacing: 0.1rem;
   margin-bottom: 2rem;
   color: white;
@@ -90,12 +91,20 @@ body {
   padding: 4rem 0;
   background-color: rgba(46, 44, 44, 0.781);
 }
+.section-title{
+  background-color: #f57a07;
+  height: 9rem;
+  margin-top: -3.9rem;
+}
 .section-title h2 {
+  /* color: antiquewhite; */
+ font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5rem;
+  font-size: 2rem;
+  /* margin-bottom: 5rem; */
   text-transform: capitalize;
   letter-spacing: 0.1rem;
+
 }
 .products-center {
   width: 100vh;
@@ -106,48 +115,19 @@ body {
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem; */
 }
-/* .img-container {
-  position: relative;
-  overflow: hidden;
+.product{
+  border: 1px solid grey;
+  /* margin: 0.2rem; */
 }
-.bag-btn {
-  position: absolute;
-  top: 70%;
-  right: 0;
-  background: #f57a07;
-  border: none;
-  text-transform: uppercase;
-  padding: 0.5rem 0.75rem;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
-  transition: all 0.3s linear;
-  transform: translateX(101%);
-  cursor: pointer;
-}
-.bag-btn:hover {
-  color: white;
-}
-.fa-shooping-cart {
-  margin-right: 0.5rem;
-}
-.img-container:hover .bag-btn {
-  transform: translateX(0);
-}
-.product-img {
-  display: block;
-  width: 100%;
-  min-height: 12rem;
-  transform: all 0.3s linear;
-}
-.img-container:hover .product-img {
-  opacity: 0.5;
-} */
 .product h3 {
   text-transform: capitalize;
   font-size: 1.1rem;
   margin-top: 1rem;
   letter-spacing: 0.1rem;
   text-align: center;
+}
+.product-img{
+  float: right;
 }
 /* end of products */
 /* cart */
