@@ -50,109 +50,104 @@
 
       <!-- end of hero -->
       <!-- products -->
-      <section class="products container-fluid">
-        <div class="section-title d-flex align-items-center justify-content-center">
-          <h2>Build Your Own Pizza</h2>
-        </div>
-        <div class="products-center mt-5 row">
-          <!-- single product -->
-          <div class="product col-md-4 text-center">
-            <div class="img-container text-center">
-              <p><img
-                src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
-                alt="product"
-                class="img-fluid product-img"
-              /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit deleniti numquam esse quae minus.</p>
-              <!-- <button class="bag-btn" data-id="1">
-                <i class="fas fa-shopping-cart"></i>
-                add to cart
-              </button> -->
-            </div>
-            <p>Choose Your crust's size</p>
-            <div class="specify">
-              <select
-                name="pizza"
-                class="size form-select"
-                aria-label="Disabled select example"
-                id="pizza-size"
-              >
-                <!-- <option  value="choose" >choose</option> -->
-                <option value="small">small</option>
-                <option value="medium">medium</option>
-                <option value="large">large</option>
-              </select>
-            </div>
+      <section class="build-pizza">
+        <div class="shop">
+          <div class="slogan">
+            <h2>Build Your Own Pizza</h2>
           </div>
-          <div class="product col-md-4 text-center">
-            <div class="img-container">
-              <img
-                src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
-                alt="product"
-                class="img-fluid"
-              />
-              <!-- <button class="bag-btn" data-id="1">
-                <i class="fas fa-shopping-cart"></i>
-                add to cart
-              </button> -->
+          <div class="select-product">
+            <!-- single product -->
+            <div class="our-products d-flex">
+              <div class="img-container">
+                <img
+                  style="width: 100%;"
+                  src="./src/images/pranjall-kumar-DgY-LbtESNw-unsplash.jpg"
+                  alt="product"
+                  class="product-img"
+                />
+              </div>
+              <div class="product-info d-flex flex-column">
+                <p class="heading">Choose Your crust's size</p>
+                <p>You like them big or small, you no longer have to worry, we have a variety just for you! You get to select the size of pizza you want, with sizes ranging from small, medium and big</p>
+                <select
+                  name="pizza"
+                  class="size"
+                  aria-label="Default select example"
+                  id="pizza-size"
+                >
+                  <option value="small">small</option>
+                  <option value="medium">medium</option>
+                  <option value="large">large</option>
+                </select>
+              </div>
             </div>
-            <p>Choose Your Toppings</p>
-            <div class="specify">
-              <select
-                name="pizza form-select"
-                aria-label="Disabled select example"
-                id="pizza-toppings"
-              >
-                <option value="choose">choose</option>
-                <option value="pineapples">pineapples</option>
-                <option value="mushrooms">mushrooms</option>
-                <option value="olives">olives</option>
-              </select>
+            <div class="our-products d-flex">
+              <div class="img-container">
+                <img
+                  style="width: 100%;"
+                  src="./src/images/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg"
+                  alt="product"
+                  class="product-img"
+                />
+              </div>
+              <div class="product-info d-flex flex-column">
+                <p class="heading">Choose Your Toppings</p>
+                <p>What is a pizza without brilliant toppings? Pick one or blend them for that bohemian artisan feel. Choose different types of toppings, each are perfect for any style of pizza or personal taste.</p>
+                <select
+                  name="pizza"
+                  aria-label="Default select example"
+                  id="pizza-toppings"
+                >
+                
+                  <option value="pineapples">pineapples</option>
+                  <option value="mushrooms">mushrooms</option>
+                  <option value="olives">olives</option>
+                </select>
+              </div>
             </div>
+            <div class="our-products d-flex">
+              <div class="img-container">
+                <img
+                  style="width: 80%;"
+                  src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
+                  alt="product"
+                  class="product-img"
+                />
+              </div>
+              <div class="product-info d-flex flex-column">
+                <p class="heading">Choose your crust type</p>
+                <p>Our cheese-only and cheese-and-pepperoni gluten-free pizzas are prepared using the procedures certified by the Gluten Intolerance Group (GIG), and we take specific caution when making these pizzas.For those simply looking to reduce gluten in their diets, we offer a <span> Your Own pizza option</span>. But you still get to choose whether you like your pizza rispy or stuffed, how cool is that!?</p>
+                <select
+                  name="pizza"
+                  class="crust-type form-select"
+                  aria-label="Default select example"
+                  id="pizza-crust"
+                >
+                  
+                  <option value="rispy">rispy</option>
+                  <option value="stuffed">stuffed</option>
+                  <option value="glutenFree">glutenFree</option>
+                </select>
+              </div>
+            </div>
+            <!-- end of single product -->
           </div>
-          <div class="product col-md-4 text-center">
-            <div class="img-container">
-              <img
-                src="./src/images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg"
-                alt="product"
-                class="img-fluid"
-              />
-              <!-- <button class="bag-btn" data-id="1">
-                <i class="fas fa-shopping-cart"></i>
-                add to cart
-              </button> -->
-            </div>
-            <p>Choose your crust type</p>
-            <div class="specify">
-              <select
-                name="pizza"
-                class="crust-type form-select"
-                aria-label="Disabled select example"
-                id="pizza-crust"
-              >
-                <option value="choose">choose</option>
-                <option value="rispy">rispy</option>
-                <option value="stuffed">stuffed</option>
-                <option value="glutenFree">glutenFree</option>
-              </select>
-            </div>
+          <button class="order btn btn-warning p-2 ml-4">Order Now</button>
+          <div class="data">
+            <table class="table table-stripped table-dark order-table">
+              <tr>
+                <th>order number</th>
+                <th>pizza size</th>
+                <th>crust type</th>
+                <th>toppings</th>
+                <th>total</th>
+              </tr>
+            </table>
           </div>
-          <!-- end of single product -->
-        </div>
-        <button class="order btn btn-warning p-2 ml-4">Order Now</button>
-        <div class="data">
-          <table class="table table-stripped table-dark order-table">
-            <tr>
-              <th>order number</th>
-              <th>pizza size</th>
-              <th>crust type</th>
-              <th>toppings</th>
-              <th>total</th>
-            </tr>
-          </table>
-        </div>
-        <div class="checkout">
-          <button class="add-order">Add another</button>
-          <button class="checkout1">Checkout</button>
+          <div class="checkout">
+            <button class="add-order">Add another</button>
+            <button class="checkout1">Checkout</button>
+          </div>
         </div>
       </section>
       <!-- cart -->

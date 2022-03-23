@@ -17,9 +17,9 @@ body {
   background-color: rgb(12, 12, 12);
   z-index: 1;
 }
-.logo{
+.logo {
   color: #f57a07;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 .navbar-center {
   width: 100%;
@@ -66,9 +66,7 @@ body {
 }
 .banner-title {
   font-size: 1.5rem;
-  font-family: 'Damion', cursive;
-  /* text-transform: uppercase; */
-  letter-spacing: 0.1rem;
+  font-family: "Lobster", cursive;
   margin-bottom: 2rem;
   color: white;
 }
@@ -87,47 +85,47 @@ body {
   background: transparent;
   color: #f57a07;
 }
-.products {
-  padding: 4rem 0;
-  background-color: rgba(46, 44, 44, 0.781);
+.shop {
+  padding: 2rem 0;
+  background-color: rgba(73, 45, 3, 0.781);
 }
-.section-title{
-  background-color: #f57a07;
-  height: 9rem;
-  margin-top: -3.9rem;
-}
-.section-title h2 {
-  /* color: antiquewhite; */
- font-family: 'Lobster', cursive;
+.slogan h2 {
   text-align: center;
-  font-size: 2rem;
-  /* margin-bottom: 5rem; */
-  text-transform: capitalize;
-  letter-spacing: 0.1rem;
-
+  font-size: 2.5rem;
+  margin-bottom: 2em;
+  font-family: 'Stint Ultra Condensed', cursive;
+  color: black;
 }
-.products-center {
-  width: 100vh;
+.select-product {
+  width: 80%;
   margin: 0 auto;
-  /* max-width: 1170px; */
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem; */
 }
-.product{
+.img-container {
+  padding: 1rem;
+}
+.our-products {
+  margin: 3rem;
   border: 1px solid grey;
-  /* margin: 0.2rem; */
+  border-radius: 5px;
+  background-color: rgba(27, 24, 24, 0.815);
 }
-.product h3 {
-  text-transform: capitalize;
-  font-size: 1.1rem;
-  margin-top: 1rem;
-  letter-spacing: 0.1rem;
-  text-align: center;
+.product-info {
+  padding: 10px;
+  color: antiquewhite;
+  width: 1000%;
 }
-.product-img{
-  float: right;
+select {
+  background-color: transparent;
+}
+.product-info span{
+  font-weight: 900;
+  color: #f57a07;
+  font-family: 'Damion', cursive;
+}
+.heading{
+  color: #f57a07;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
 }
 /* end of products */
 /* cart */
@@ -186,79 +184,49 @@ body {
   grid-column-gap: 1.5rem;
   margin: 1.5rem 0;
 }
-.cart-item img{
+.cart-item img {
   width: 75px;
   height: 75px;
 }
-.cart-item h4{
+.cart-item h4 {
   font-size: 0.85rem;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
 }
-.cart-item h5{
+.cart-item h5 {
   margin: 0.5rem 0;
   letter-spacing: 0.1rem;
 }
-.item-amount{
+.item-amount {
   text-align: center;
 }
-.remove-item{
+.remove-item {
   color: grey;
   cursor: pointer;
 }
-.fa-chevron-up, .fa-chevron-down{
+.fa-chevron-up,
+.fa-chevron-down {
   color: #f57a07;
   cursor: pointer;
 }
 /* end of cart item */
-.cart-footer{
+.cart-footer {
   margin-top: 2rem;
   letter-spacing: 0.1rem;
   text-align: center;
 }
-.data{
+.data {
   display: none;
 }
-.random{
+.random {
   display: block;
 }
-.add-order{
+.add-order {
   display: none;
 }
-.checkout{
+.checkout {
   display: none;
 }
-.cart-total{
+.cart-total {
   display: block;
 }
-
-/* .order {
-  height: 60vh;
-  background-color: black;
-}
-.order-text {
-  top: 60%;
-  bottom: 20%;
-  padding-top: 4em;
-  width: 100%;
-  text-align: center;
-}
-.order-text h2 {
-  color: #f57a07;
-}
-.order-text p {
-  color: white;
-}
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-.select{
-  background-color: rgb(27, 27, 27);
-
-} */
